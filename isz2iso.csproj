@@ -9,9 +9,14 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>isz2iso</RootNamespace>
     <AssemblyName>isz2iso</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+=======
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+>>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -22,7 +27,10 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+<<<<<<< HEAD
     <Prefer32Bit>false</Prefer32Bit>
+=======
+>>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,7 +40,10 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+<<<<<<< HEAD
     <Prefer32Bit>false</Prefer32Bit>
+=======
+>>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,7 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="ByteArrayStream.cs" />
+=======
+>>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
     <Compile Include="IszInputStream.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,9 +69,12 @@
       <Name>ICSharpCode.SharpZLib</Name>
     </ProjectReference>
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+=======
+>>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

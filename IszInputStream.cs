@@ -7,7 +7,10 @@ using System.Text;
 using ICSharpCode.SharpZipLib.BZip2;
 using ICSharpCode.SharpZipLib.Checksums;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+<<<<<<< HEAD
 using Misho.IO;
+=======
+>>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
 
 namespace DiskImage
 {
@@ -373,7 +376,11 @@ namespace DiskImage
             byte[] buffer = new byte[data.Length];
             byte[] outBuffer = null;
 
+<<<<<<< HEAD
             using (ByteArrayStream memStream = new ByteArrayStream(data))
+=======
+            using (MemoryStream memStream = new MemoryStream(data))
+>>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
             using (InflaterInputStream zipInputStream = new InflaterInputStream(memStream))
             {
                 int readed, i = 0;
@@ -404,7 +411,14 @@ namespace DiskImage
             data[1] = (byte)'Z';
             data[2] = (byte)'h';
 
+<<<<<<< HEAD
             using (ByteArrayStream memStream = new ByteArrayStream(data))
+=======
+            //byte[] bz2MagicPatch = Encoding.ASCII.GetBytes("BZh");
+            //Array.Copy(bz2MagicPatch, data, bz2MagicPatch.Length);
+
+            using (MemoryStream memStream = new MemoryStream(data))
+>>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
             using (BZip2InputStream zipInputStream = new BZip2InputStream(memStream))
             {
                 int readed, i = 0;
