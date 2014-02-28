@@ -7,10 +7,7 @@ using System.Text;
 using ICSharpCode.SharpZipLib.BZip2;
 using ICSharpCode.SharpZipLib.Checksums;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
-<<<<<<< HEAD
 using Misho.IO;
-=======
->>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
 
 namespace DiskImage
 {
