@@ -17,11 +17,7 @@
     <PreBuildEvent />
     <PostBuildEvent />
     <DocumentationFile>..\bin\ICSharpCode.SharpZipLib.xml</DocumentationFile>
-<<<<<<< HEAD
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
-=======
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
->>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -42,10 +38,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-<<<<<<< HEAD
     <TargetFrameworkProfile />
-=======
->>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
@@ -55,10 +48,7 @@
     <OutputPath>..\bin\</OutputPath>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <DebugType>None</DebugType>
-<<<<<<< HEAD
     <Prefer32Bit>false</Prefer32Bit>
-=======
->>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -68,10 +58,7 @@
     <OutputPath>..\bin\</OutputPath>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <DebugType>Full</DebugType>
-<<<<<<< HEAD
     <Prefer32Bit>false</Prefer32Bit>
-=======
->>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
     <RegisterForComInterop>False</RegisterForComInterop>
@@ -91,10 +78,7 @@
     <DebugType>None</DebugType>
     <PlatformTarget>x64</PlatformTarget>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-<<<<<<< HEAD
     <Prefer32Bit>false</Prefer32Bit>
-=======
->>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -105,10 +89,7 @@
     <DebugType>Full</DebugType>
     <PlatformTarget>x64</PlatformTarget>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-<<<<<<< HEAD
     <Prefer32Bit>false</Prefer32Bit>
-=======
->>>>>>> fcd3a3158fe04c7ede14db88a87ab1c713fd14b7
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
